@@ -1,15 +1,15 @@
 * {
 	box-sizing: content-box;
 	text-align: left;
-	/*background-image: url();*/
+	background-image: url(http://www.freebiesgallery.com/wp-content/uploads/2014/02/mosaic-background-1.jpg);
 }
 
 body {
 	padding: 10px;
 	margin: 20px;
 	margin-top: 10px;
-	background-color: blue;
-}
+/*	background-color: blue;
+*/}
 
 .uptop {
 	/*box-sizing:border-box;*/
@@ -21,6 +21,7 @@ body {
 		  border: 1px solid black;
 		  margin: .5em auto;
 		  float: left;
+		  color: white;
 		  background-color: #4aaaa5;
 }
 
