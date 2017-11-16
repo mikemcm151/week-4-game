@@ -70,6 +70,7 @@
   <div class="row">
     <div class="col-md-3">
       <p>Wins:</p>
+      <div id=winTotal></div>
 
     </div>
     
@@ -79,6 +80,7 @@
     <br>
     <div class="col-md-9">
        <h1>Losses:</h1>
+       <div id=lossTotal></div> 
     </div>
   </div>
 </aside>
@@ -119,8 +121,10 @@
   var Random=Math.floor(Math.random()*101+19)
   $('#randomNumber').text(Random);
 
-// The Four Gems Random Number GeneratorsS
+// The Four Gems Random Number Generators, not getting this function correct
   $("#firstgem").on("click", function() {
+    var Random1=Math.floor(Math.random()*11+1)
+  $('.gemImage').text(Random1);
     alert("test");
     // var randomNumber = "";
     // for (var i=0; i<13; i++){
@@ -138,6 +142,13 @@
         })
 
   // Your score tally
+    var wins = 0
+    var losses = 0
+    $("winTotal").text(wins);
+    $("lossTotal").text(losses);
+
+    // game reset or refresh
+    function reset() {}
 
 
 </script>
